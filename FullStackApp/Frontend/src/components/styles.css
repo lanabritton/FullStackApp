@@ -1,0 +1,39 @@
+/* Add your custom styles here */
+
+
+/* Apply basic styles to the root element */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Set max-width for better readability on larger screens */
+
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+/* Ensure the root element fills the entire viewport */
+
+#root {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Add responsive styles for better readability on smaller screens */
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+}
